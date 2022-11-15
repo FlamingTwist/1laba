@@ -7,7 +7,7 @@ for i in range(len(sides)):
             a = sides[i]
             b = sides[j]
             c = sides[k]
-            if a + b > c and a + c > b and b + c > a:
+            if a + b > c and a + c > b and b + c > a: #я люблю чебуреки
                 p = (a + b + c) / 2
                 s = (p * (p - a) * (p - b) * (p - c)) ** (1 / 2)
                 if s > smax:
